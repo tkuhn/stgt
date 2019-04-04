@@ -6,7 +6,7 @@
         "date": "$dbo:releaseDate"
       },
       "member": {
-        "id": "$dbo:bandMember"
+        "id": "$dbo:bandMember$required"
       }
 
   },

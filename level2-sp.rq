@@ -10,7 +10,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 ?album dbo:artist ?band.
 ?band dbo:genre dbr:Experimental_Rock.
 OPTIONAL { ?album dbo:releaseDate ?album_date  }.
-OPTIONAL { ?band dbo:bandMember ?member }
+?band dbo:bandMember ?member
     
   }
   
