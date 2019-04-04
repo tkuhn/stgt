@@ -3,14 +3,14 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-  SELECT DISTINCT ?band ?v1 ?v2 ?v3
+  SELECT DISTINCT ?band ?homepage ?from ?founded
   WHERE {
     
     ?band rdf:type dbo:Band.
 ?band dbo:genre dbr:Experimental_Rock.
-OPTIONAL { ?band foaf:homepage ?v1  }.
-OPTIONAL { ?band dbo:hometown ?v2  }.
-OPTIONAL { ?band dbo:activeYearsStartYear ?v3  }
+OPTIONAL { ?band foaf:homepage ?homepage  }.
+OPTIONAL { ?band dbo:hometown ?from  }.
+OPTIONAL { ?band dbo:activeYearsStartYear ?founded  }
     
   }
   
