@@ -6,7 +6,7 @@
         "date": "$dbo:releaseDate"
       },
       "member": {
-        "id": "?member"
+        "id": "$dbo:bandMember"
       }
 
   },
@@ -14,7 +14,6 @@
     "?band rdf:type dbo:Band",
     "?album rdf:type schema:MusicAlbum",
     "?album dbo:artist ?band",
-    "?band dbo:bandMember ?member",
     "?band dbo:genre dbr:Experimental_Rock"
   ],
   "$limit": 10000,
