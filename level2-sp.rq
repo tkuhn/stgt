@@ -6,15 +6,14 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
   WHERE {
     
     ?band rdf:type dbo:Band.
+?album rdf:type schema:MusicAlbum.
 ?album dbo:artist ?band.
-?band dbo:bandMember ?member.
 ?band dbo:genre dbr:Experimental_Rock.
 OPTIONAL { ?album dbo:releaseDate ?album_date  }.
-
+OPTIONAL { ?band dbo:bandMember ?member }
     
   }
   
   
   
   LIMIT 10000
-  
