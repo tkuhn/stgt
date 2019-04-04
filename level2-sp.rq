@@ -1,0 +1,20 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  SELECT DISTINCT ?band ?album ?album_date ?member
+  WHERE {
+    
+    ?band rdf:type dbo:Band.
+?album dbo:artist ?band.
+?band dbo:bandMember ?member.
+?band dbo:genre dbr:Experimental_Rock.
+OPTIONAL { ?album dbo:releaseDate ?album_date  }.
+
+    
+  }
+  
+  
+  
+  LIMIT 10000
+  
