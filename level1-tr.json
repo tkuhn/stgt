@@ -4,7 +4,7 @@
       "album": {
         "id": "?album",
         "date": "$dbo:releaseDate",
-        "label": "$dbo:recordLabel"
+        "label": "$dbo:recordLabel$required"
       }
 
   },
