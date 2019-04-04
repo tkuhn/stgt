@@ -1,0 +1,21 @@
+{
+  "proto": {
+      "id": "?band",
+      "homepage" : "$foaf:homepage",
+      "from" : "$dbo:hometown",
+      "founded": "$dbo:activeYearsStartYear"
+  },
+  "$where": [
+    "?band rdf:type dbo:Band",
+    "?band dbo:genre dbr:Experimental_Rock"
+  ],
+  "$limit": 10000,
+  "grlc": "#+ summary: Testing SPARQL Transformer in grlc\n#+ endpoint: http://dbpedia.org/sparql\n#+ tags:\n#+   - json\n#+ method: GET\n#+ pagination: 50",
+  "$prefixes": {
+    "dbo" : "http://dbpedia.org/ontology/",
+    "dbr" : "http://dbpedia.org/resource/",
+    "foaf" : "http://xmlns.com/foaf/0.1/" ,
+    "schema" : "http://schema.org/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  }
+}
