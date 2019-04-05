@@ -11,6 +11,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 ?band dbo:genre dbr:Experimental_Rock.
 OPTIONAL { ?album dbo:releaseDate ?album_date  }.
 ?band dbo:bandMember ?member
+FILTER(?band NOT IN (<http://dbpedia.org/resource/Exists_(band)>))
     
   }
 

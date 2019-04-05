@@ -6,10 +6,8 @@
         "date": "$dbo:releaseDate"
       },
       "member": {
-        "id": "?member",
         "id": "$dbo:bandMember$required"
       }
-
   },
   "$where": [
     "?band rdf:type dbo:Band",
@@ -17,6 +15,7 @@
     "?album dbo:artist ?band",
     "?band dbo:genre dbr:Experimental_Rock"
   ],
+  "$filter": "?band NOT IN (<http://dbpedia.org/resource/Exists_(band)>)",
   "$orderby": [ "?band", "?album" ],
   "$limit": 10,
   "grlc": "#+ summary: Testing SPARQL Transformer in grlc\n#+ endpoint: http://dbpedia.org/sparql\n#+ tags:\n#+   - json\n#+ method: GET\n#+ pagination: 50",
