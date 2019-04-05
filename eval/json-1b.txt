@@ -1,0 +1,171 @@
+Question 1: JSON Content for System B
+-------------------------------------
+
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "band",
+      "homepage",
+      "from",
+      "founded"
+    ]
+  },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "band": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/An_Albatross"
+        },
+        "homepage": {
+          "type": "uri",
+          "value": "http://www.analbatross.com/"
+        },
+        "from": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Wilkes-Barre,_PA"
+        },
+        "founded": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#gYear",
+          "value": "1999"
+        }
+      },
+      {
+        "band": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Arbovirus_(band)"
+        },
+        "from": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Bangladesh"
+        },
+        "founded": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#gYear",
+          "value": "2002"
+        }
+      },
+      {
+        "band": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Arbovirus_(band)"
+        },
+        "from": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Dhaka"
+        },
+        "founded": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#gYear",
+          "value": "2002"
+        }
+      },
+      {
+        "band": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Consider_the_Thief"
+        },
+        "from": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Sacramento,_California"
+        },
+        "founded": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#gYear",
+          "value": "2007"
+        }
+      },
+      {
+        "band": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/East_of_Eden_(band)"
+        },
+        "homepage": {
+          "type": "uri",
+          "value": "http://www.eastofedentheband.com/"
+        },
+        "from": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Bristol"
+        },
+        "founded": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#gYear",
+          "value": "1996"
+        }
+      },
+      {
+        "band": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Exists_(band)"
+        },
+        "from": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Johor"
+        },
+        "founded": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#gYear",
+          "value": "1991"
+        }
+      },
+      {
+        "band": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Exists_(band)"
+        },
+        "from": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Malaysia"
+        },
+        "founded": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#gYear",
+          "value": "1991"
+        }
+      },
+      {
+        "band": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/For_a_Minor_Reflection"
+        },
+        "homepage": {
+          "type": "uri",
+          "value": "http://www.foraminorreflection.com/"
+        },
+        "from": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Iceland"
+        },
+        "founded": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#gYear",
+          "value": "2005"
+        }
+      },
+      {
+        "band": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/For_a_Minor_Reflection"
+        },
+        "homepage": {
+          "type": "uri",
+          "value": "http://www.foraminorreflection.com/"
+        },
+        "from": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Reykjavík"
+        },
+        "founded": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#gYear",
+          "value": "2005"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+Question 2: JSON Content for System A
+-------------------------------------
+
+[
+  {
+    "id": "http://dbpedia.org/resource/An_Albatross",
+    "album": [
+      {
+        "id": "http://dbpedia.org/resource/Blessphemy...of_the_Peace_Beast_Feastgiver_and_the_Bear_Warp_Kumite",
+        "label": [
+          "http://dbpedia.org/resource/Ace_Fu_Records",
+          "http://dbpedia.org/resource/Gold_Standard_Labs"
+        ]
+      },
+      {
+        "id": "http://dbpedia.org/resource/Eat_Lightning,_Shit_Thunder",
+        "label": "http://dbpedia.org/resource/When_Humans_Attack"
+      },
+      {
+        "id": "http://dbpedia.org/resource/Eat_Lightning,_Shit_Thunder",
+        "label": "http://dbpedia.org/resource/Bloodlink_Records"
+      }
+    ]
+  },
+  {
+    "id": "http://dbpedia.org/resource/Porter_(band)",
+    "album": [
+      {
+        "id": "http://dbpedia.org/resource/Atemahawke",
+        "date": "2007-05-15",
+        "label": "http://dbpedia.org/resource/3er_Piso"
+      },
+      {
+        "id": "http://dbpedia.org/resource/Donde_los_ponys_pastan",
+        "label": "http://dbpedia.org/resource/3er_Piso"
+      }
+    ]
+  },
+  {
+    "id": "http://dbpedia.org/resource/The_Morakestra",
+    "album": {
+      "id": "http://dbpedia.org/resource/Witness_to_Connection",
+      "date": "2009-06-02",
+      "label": "http://dbpedia.org/resource/Stratking_Records"
+    }
+  }
+]

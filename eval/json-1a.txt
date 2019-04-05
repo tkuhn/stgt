@@ -1,0 +1,47 @@
+Question 1: JSON Content for System A
+-------------------------------------
+
+[
+  {
+    "id": "http://dbpedia.org/resource/An_Albatross",
+    "homepage": "http://www.analbatross.com/",
+    "from": "http://dbpedia.org/resource/Wilkes-Barre,_PA",
+    "founded": "1999"
+  },
+  {
+    "id": "http://dbpedia.org/resource/Arbovirus_(band)",
+    "from": [
+      "http://dbpedia.org/resource/Bangladesh",
+      "http://dbpedia.org/resource/Dhaka"
+    ],
+    "founded": "2002"
+  },
+  {
+    "id": "http://dbpedia.org/resource/Consider_the_Thief",
+    "from": "http://dbpedia.org/resource/Sacramento,_California",
+    "founded": "2007"
+  },
+  {
+    "id": "http://dbpedia.org/resource/East_of_Eden_(band)",
+    "homepage": "http://www.eastofedentheband.com/",
+    "from": "http://dbpedia.org/resource/Bristol",
+    "founded": "1996"
+  },
+  {
+    "id": "http://dbpedia.org/resource/Exists_(band)",
+    "from": [
+      "http://dbpedia.org/resource/Johor",
+      "http://dbpedia.org/resource/Malaysia"
+    ],
+    "founded": "1991"
+  },
+  {
+    "id": "http://dbpedia.org/resource/For_a_Minor_Reflection",
+    "homepage": "http://www.foraminorreflection.com/",
+    "from": [
+      "http://dbpedia.org/resource/Iceland",
+      "http://dbpedia.org/resource/Reykjavík"
+    ],
+    "founded": "2005"
+  }
+]
