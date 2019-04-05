@@ -7,9 +7,10 @@
   },
   "$where": [
     "?band rdf:type dbo:Band",
-    "?band dbo:genre dbr:Experimental_Rock"
+    "?band dbo:genre dbr:Experimental_Rock",
   ],
-  "$limit": 10000,
+  "$orderby": [ "?band" ],
+  "$limit": 9,
   "grlc": "#+ summary: Testing SPARQL Transformer in grlc\n#+ endpoint: http://dbpedia.org/sparql\n#+ tags:\n#+   - json\n#+ method: GET\n#+ pagination: 50",
   "$prefixes": {
     "dbo" : "http://dbpedia.org/ontology/",
