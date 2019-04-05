@@ -13,7 +13,6 @@ OPTIONAL { ?album dbo:releaseDate ?albumDate  }.
 ?album dbo:recordLabel ?albumLabel 
     
   }
-  
-  
-  
-  LIMIT 10000
+
+  ORDER BY ?band ?album
+  LIMIT 10

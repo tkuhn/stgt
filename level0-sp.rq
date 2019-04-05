@@ -13,9 +13,6 @@ OPTIONAL { ?band dbo:hometown ?from  }.
 OPTIONAL { ?band dbo:activeYearsStartYear ?founded  }
     
   }
-  
-  
-  
-  LIMIT 10000
-  
-  
+
+  ORDER BY ?band
+  LIMIT 9
