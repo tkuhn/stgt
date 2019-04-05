@@ -1,0 +1,42 @@
+[
+  {
+    "id": "http://dbpedia.org/resource/An_Albatross",
+    "album": [
+      {
+        "id": "http://dbpedia.org/resource/Blessphemy...of_the_Peace_Beast_Feastgiver_and_the_Bear_Warp_Kumite"
+      },
+      {
+        "id": "http://dbpedia.org/resource/Eat_Lightning,_Shit_Thunder"
+      }
+    ],
+    "member": {
+      "id": "http://dbpedia.org/resource/Kyle_Fisher"
+    }
+  },
+  {
+    "id": "http://dbpedia.org/resource/Porter_(band)",
+    "album": [
+      {
+        "id": "http://dbpedia.org/resource/Atemahawke",
+        "date": "2007-05-15"
+      },
+      {
+        "id": "http://dbpedia.org/resource/Donde_los_ponys_pastan"
+      }
+    ],
+    "member": [
+      {
+        "id": "http://dbpedia.org/resource/Juan_Pablo_Vázquez"
+      },
+      {
+        "id": "http://dbpedia.org/resource/Fernando_de_la_Huerta"
+      },
+      {
+        "id": "http://dbpedia.org/resource/Diego_Rangel_(musician)"
+      },
+      {
+        "id": "http://dbpedia.org/resource/Víctor_Valverde"
+      }
+    ]
+  }
+]
