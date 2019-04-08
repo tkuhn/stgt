@@ -4,7 +4,7 @@ In this questionnaire, we would like to know your opinion about the usefulness o
 
 Thanks for participating!
 
- * Required
+(* Required)
 
 
 ## Some quick questions about your background
