@@ -11,27 +11,27 @@ Thanks for participating!
 
 Which of the following roles describes you best? *
 
-( ) researcher
-( ) developer
-( ) other
+- ( ) researcher
+- ( ) developer
+- ( ) other
 
 
 What is your level of expertise with SPARQL? *
 
-( ) 0 none
-( ) 1
-( ) 2
-( ) 3
-( ) 4 expert
+- ( ) 0 none
+- ( ) 1
+- ( ) 2
+- ( ) 3
+- ( ) 4 expert
 
 
 What is your level of expertise with JSON? *
 
-( ) 0 none
-( ) 1
-( ) 2
-( ) 3
-( ) 4 expert
+- ( ) 0 none
+- ( ) 1
+- ( ) 2
+- ( ) 3
+- ( ) 4 expert
 
 
 ## Question 1 - Interface
@@ -44,11 +44,11 @@ System B: https://raw.githubusercontent.com/tkuhn/stgt/master/eval/interface-1b.
 
 As a (technically-minded) end user, would you prefer the interface of System A or System B in this particular case? *
 
-( ) Strongly prefer A
-( ) Slightly prefer A
-( ) Indifferent
-( ) Slightly prefer B
-( ) Strongly prefer B
+- ( ) Strongly prefer A
+- ( ) Slightly prefer A
+- ( ) Indifferent
+- ( ) Slightly prefer B
+- ( ) Strongly prefer B
 
 
 ## Question 1 - JSON
@@ -61,11 +61,11 @@ System B: https://raw.githubusercontent.com/tkuhn/stgt/master/eval/json-1b.txt
 
 As a developer, would you prefer System A or System B in this particular case, to process the JSON representations? *
 
-( ) Strongly prefer A
-( ) Slightly prefer A
-( ) Indifferent
-( ) Slightly prefer B
-( ) Strongly prefer B
+- ( ) Strongly prefer A
+- ( ) Slightly prefer A
+- ( ) Indifferent
+- ( ) Slightly prefer B
+- ( ) Strongly prefer B
 
 
 ## Question 2 - Interface
@@ -78,11 +78,11 @@ System B: https://raw.githubusercontent.com/tkuhn/stgt/master/eval/interface-2b.
 
 As a (technically-minded) end user, would you prefer the interface of System A or System B in this particular case? *
 
-( ) Strongly prefer A
-( ) Slightly prefer A
-( ) Indifferent
-( ) Slightly prefer B
-( ) Strongly prefer B
+- ( ) Strongly prefer A
+- ( ) Slightly prefer A
+- ( ) Indifferent
+- ( ) Slightly prefer B
+- ( ) Strongly prefer B
 
 
 # Question 2 - JSON
@@ -95,11 +95,11 @@ System B: https://raw.githubusercontent.com/tkuhn/stgt/master/eval/json-2b.txt
 
 As a developer, would you prefer System A or System B in this particular case, to process the JSON representations? *
 
-( ) Strongly prefer A
-( ) Slightly prefer A
-( ) Indifferent
-( ) Slightly prefer B
-( ) Strongly prefer B
+- ( ) Strongly prefer A
+- ( ) Slightly prefer A
+- ( ) Indifferent
+- ( ) Slightly prefer B
+- ( ) Strongly prefer B
 
 
 # Question 3 - Interface
@@ -112,11 +112,11 @@ System B: https://raw.githubusercontent.com/tkuhn/stgt/master/eval/interface-3b.
 
 As a (technically-minded) end user, would you prefer the interface of System A or System B in this particular case? *
 
-( ) Strongly prefer A
-( ) Slightly prefer A
-( ) Indifferent
-( ) Slightly prefer B
-( ) Strongly prefer B
+- ( ) Strongly prefer A
+- ( ) Slightly prefer A
+- ( ) Indifferent
+- ( ) Slightly prefer B
+- ( ) Strongly prefer B
 
 
 # Question 3 - JSON
@@ -129,11 +129,11 @@ System B: https://raw.githubusercontent.com/tkuhn/stgt/master/eval/json-3b.txt
 
 As a developer, would you prefer System A or System B in this particular case, to process the JSON representations? *
 
-( ) Strongly prefer A
-( ) Slightly prefer A
-( ) Indifferent
-( ) Slightly prefer B
-( ) Strongly prefer B
+- ( ) Strongly prefer A
+- ( ) Slightly prefer A
+- ( ) Indifferent
+- ( ) Slightly prefer B
+- ( ) Strongly prefer B
 
 
 # That's all, thanks for your help!
