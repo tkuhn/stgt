@@ -1,0 +1,78 @@
+Q1 Interface:
+
+	Exact binomial test
+
+data:  40 and 52
+number of successes = 40, number of trials = 52, p-value = 0.0001275
+alternative hypothesis: true probability of success is not equal to 0.5
+95 percent confidence interval:
+ 0.6315972 0.8746839
+sample estimates:
+probability of success 
+             0.7692308 
+
+Q1 JSON:
+
+	Exact binomial test
+
+data:  39 and 51
+number of successes = 39, number of trials = 51, p-value = 0.000198
+alternative hypothesis: true probability of success is not equal to 0.5
+95 percent confidence interval:
+ 0.6250695 0.8720919
+sample estimates:
+probability of success 
+             0.7647059 
+
+Q2 Interface:
+
+	Exact binomial test
+
+data:  40 and 53
+number of successes = 40, number of trials = 53, p-value = 0.0002685
+alternative hypothesis: true probability of success is not equal to 0.5
+95 percent confidence interval:
+ 0.6171753 0.8624488
+sample estimates:
+probability of success 
+              0.754717 
+
+Q2 JSON:
+
+	Exact binomial test
+
+data:  42 and 52
+number of successes = 42, number of trials = 52, p-value = 9.063e-06
+alternative hypothesis: true probability of success is not equal to 0.5
+95 percent confidence interval:
+ 0.6746587 0.9037324
+sample estimates:
+probability of success 
+             0.8076923 
+
+Q2 Interface:
+
+	Exact binomial test
+
+data:  41 and 52
+number of successes = 41, number of trials = 52, p-value = 3.589e-05
+alternative hypothesis: true probability of success is not equal to 0.5
+95 percent confidence interval:
+ 0.6529624 0.8893885
+sample estimates:
+probability of success 
+             0.7884615 
+
+Q2 JSON:
+
+	Exact binomial test
+
+data:  38 and 50
+number of successes = 38, number of trials = 50, p-value = 0.0003059
+alternative hypothesis: true probability of success is not equal to 0.5
+95 percent confidence interval:
+ 0.6183093 0.8693901
+sample estimates:
+probability of success 
+                  0.76 
+
