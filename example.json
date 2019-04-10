@@ -16,7 +16,6 @@
     "?band dbo:genre ?__genre_iri"
   ],
   "$orderby": [ "?band", "?album" ],
-  "$limit": 10,
   "grlc": "#+ summary: Testing SPARQL Transformer in grlc\n#+ endpoint: http://dbpedia.org/sparql\n#+ tags:\n#+   - json\n#+ method: GET\n#+ pagination: 50",
   "$prefixes": {
     "dbo" : "http://dbpedia.org/ontology/",
