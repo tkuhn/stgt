@@ -1,0 +1,27 @@
+{
+  "proto": {
+      "id": "?band",
+      "album": {
+        "id": "?album",
+        "date": "$dbo:releaseDate"
+      },
+      "member": {
+        "id": "$dbo:bandMember$required"
+      }
+  },
+  "$where": [
+    "?band rdf:type dbo:Band",
+    "?album rdf:type schema:MusicAlbum",
+    "?album dbo:artist ?band",
+    "?band dbo:genre ?__genre_iri"
+  ],
+  "$orderby": [ "?band", "?album" ],
+  "$limit": 10,
+  "grlc": "#+ summary: Testing SPARQL Transformer in grlc\n#+ endpoint: http://dbpedia.org/sparql\n#+ tags:\n#+   - json\n#+ method: GET\n#+ pagination: 50",
+  "$prefixes": {
+    "dbo" : "http://dbpedia.org/ontology/",
+    "dbr" : "http://dbpedia.org/resource/",
+    "schema" : "http://schema.org/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  }
+}
