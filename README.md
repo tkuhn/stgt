@@ -26,3 +26,9 @@ with a SPARQL Transformer query in JSON and its equivalent SPARQL query):
 
 The results for these queries in JSON format can be found
 [here](query-results/).
+
+These queries were then used for a user survey, for which you can find the questionnaire
+[here](https://github.com/tkuhn/stgt/blob/master/eval/questionnaire-form.md).
+
+The results of this study can be found
+[here](https://github.com/tkuhn/stgt/raw/master/eval-results/questionnaire-results.ods).
