@@ -27,7 +27,7 @@ with a SPARQL Transformer query in JSON and its equivalent SPARQL query):
   - [SPARQL Transformer query](level1-tr.json)
   - [plain SPARQL query](level1-sp.rq)
 - Level 2 (2 nestings): "Find bands of the genre Experimental Rock with their
-  discography of albums and their release dates and with their list of band
+  discography of albums and their release dates and with a list of their band
   members"
   - [SPARQL Transformer query](level2-tr.json)
   - [plain SPARQL query](level2-sp.rq)
