@@ -9,6 +9,6 @@ Transformer](https://github.com/D2KLab/sparql-transformer) together with
 Transformer query, which looks as follows when ran through grlc and accessed
 through the Tapas interface:
 
-![](screenshots/screenshot-get_bands_by_genre)
+![](screenshots/screenshot-get_bands_by_genre.png)
 
 ...
