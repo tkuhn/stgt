@@ -8,7 +8,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     ?band rdf:type dbo:Band.
 ?album rdf:type schema:MusicAlbum.
 ?album dbo:artist ?band.
-?band dbo:genre dbr:Experimental_Rock.
+?band dbo:genre dbr:Experimental_rock.
 OPTIONAL { ?album dbo:releaseDate ?albumDate  }.
 ?album dbo:recordLabel ?albumLabel 
     
