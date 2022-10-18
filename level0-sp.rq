@@ -7,7 +7,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
   WHERE {
     
     ?band rdf:type dbo:Band.
-?band dbo:genre dbr:Experimental_Rock.
+?band dbo:genre dbr:Experimental_rock.
 OPTIONAL { ?band foaf:homepage ?homepage  }.
 OPTIONAL { ?band dbo:hometown ?from  }.
 OPTIONAL { ?band dbo:activeYearsStartYear ?founded  }
