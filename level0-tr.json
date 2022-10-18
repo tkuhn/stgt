@@ -7,7 +7,7 @@
   },
   "$where": [
     "?band rdf:type dbo:Band",
-    "?band dbo:genre dbr:Experimental_Rock"
+    "?band dbo:genre dbr:Experimental_rock"
   ],
   "$orderby": [ "?band" ],
   "$limit": 9,
