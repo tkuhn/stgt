@@ -5,6 +5,10 @@ This repository contains the files for a study on using [SPARQL
 Transformer](https://github.com/D2KLab/sparql-transformer) together with
 [grlc](http://grlc.io/) and [Tapas](https://github.com/peta-pico/tapas).
 
+(**Update 18 October 2022:** The queries have been updated to adjust to the
+vocabulary changes on the side of Dbpedia. You can find the original files
+[here](https://github.com/tkuhn/stgt/tree/f47b4c146981b789453e3b512c6f98fa1ddd41ef).)
+
 [get_bands_by_genre.json](get_bands_by_genre.json) shows an example of a SPARQL
 Transformer query to find the albums and members of bands for a given genre.
 When run through grlc and accessed through the Tapas interface, it looks like
