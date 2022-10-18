@@ -10,9 +10,9 @@
   },
   "$where": [
     "?band rdf:type dbo:Band",
-    "?album rdf:type schema:MusicAlbum",
+    "?album rdf:type yago:Album106591815",
     "?album dbo:artist ?band",
-    "?band dbo:genre dbr:Experimental_Rock"
+    "?band dbo:genre dbr:Experimental_rock"
   ],
   "$orderby": [ "?band", "?album" ],
   "$limit": 10,
@@ -20,7 +20,7 @@
   "$prefixes": {
     "dbo" : "http://dbpedia.org/ontology/",
     "dbr" : "http://dbpedia.org/resource/",
-    "schema" : "http://schema.org/",
+    "yago" : "http://dbpedia.org/class/yago/",
     "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   }
 }
